@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 main {
@@ -13,5 +18,21 @@ main {
     gap: 5vh;
 }
 .button {
-    width: 80px;
+    width: 100px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: darkslategray;
+    box-shadow: 5px 7px 30px 5px #ad8c8c;
+}
+.button:hover{
+    background-color: darkslategray;
+    color: antiquewhite;
+    transition: .4s;
 }
